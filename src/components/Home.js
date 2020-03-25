@@ -14,7 +14,7 @@ export default function Home() {
         </p>
         <hr class="my-hr my-4" />
         <p>
-          If you wish to learn more about our company, please click the button below:
+          If you wish to learn more about our company, you can click the button below, or <a href="mailto:admin@awordinthehand.net">contact us</a>:
         </p>
         <Link to="/about">
           <button class="btn btn-lg bg-danger text-warning">Learn More</button>

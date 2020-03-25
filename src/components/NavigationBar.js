@@ -12,6 +12,9 @@ export default function NavigationBar() {
       <section class="navbar-nav">
         <Link to="/" class="nav-item nav-link text-warning">Home</Link>
         <Link to="/about" class="nav-item nav-link text-warning">About</Link>
+        <Link to="/samples" class="nav-item nav-link text-warning">
+          Work Samples
+        </Link>
       </section>
     </nav>
   )

@@ -14,6 +14,7 @@ import Home from './components/Home'
 import AboutUs from './components/About'
 import PrivacyPolicy from './components/Policy'
 import TermsAndConditions from './components/Terms'
+import WorkSamples from './components/WorkSamples'
 import Default from './components/Default'
 import Footer from './components/Footer'
 
@@ -31,6 +32,7 @@ export default function App() {
         <Route exact path="/about" component={AboutUs} />
         <Route exact path="/policy" component={PrivacyPolicy} />
         <Route exact path="/terms" component={TermsAndConditions} />
+        <Route exact path="/samples" component={WorkSamples} />
         <Route component={Default} />
       </Switch>
       <Footer />
