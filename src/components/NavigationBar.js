@@ -6,7 +6,6 @@ import logo from '../logo.svg'
 export default function NavigationBar() {
   return (
     <nav className="navbar navbar-expand-sm bg-danger">
-      {/* TODO: Find an icon */}
       <img
         className="navbar-brand" src={logo} alt="logo" height="75" width="75"
       />
