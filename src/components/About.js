@@ -1,13 +1,22 @@
 import React from 'react'
 import profile_pic from '../img/kerlene_profile.jpg'
 
+// Translation Sample Videos
+import abuelas_de_luz_vid from '../vid/Abuelas de luz _ Anastasia García _ TEDxBogotaMujeres-gKBj2o-PJ_0.mp4'
+import abuelas_de_luz_subtitles from '../vid/captions/Abuelas de luz _ Anastasia García _ TEDxBogotaMujeres-gKBj2o-PJ_0.en.vtt'
+
+import how_to_transform_the_i_vid from '../vid/Como transformar el yo en nosotros - Miriam Reyes at TEDxBurgos-l81dmxj7up0.mp4'
+import how_to_transform_the_i_subtitles from '../vid/captions/Como transformar el yo en nosotros - Miriam Reyes at TEDxBurgos-l81dmxj7up0.en.vtt'
+
+
+
 
 export default function AboutUs() {
   return (
     <article className="container d-flex flex-column">
       {/* Introduction */}
-      <section className="d-flex flex-column justify-content-center align-items-center">
-        <h1 className="text-center">About Me</h1>
+      <section className="d-flex flex-column align-items-center">
+        <h1>About Me</h1>
         <img
           className="img-fluid border shadow rounded-circle"
           src={profile_pic}
@@ -19,7 +28,49 @@ export default function AboutUs() {
       </section>
 
       {/* Video Samples */}
-      <section id="video-container"></section>
+      <section className="d-flex flex-column align-items-center">
+        <h2>Video Translations</h2>
+        {/* Abuelas de luz - Anastasia García - TEDxBogotaMujeres */}
+        <section>
+          <video
+            controls
+            preload="metadata"
+            height="auto"
+            width="auto"
+          >
+            <source src={abuelas_de_luz_vid} type="video/mp4"/>
+            <track
+              label="English"
+              kind="subtitles"
+              srclang="en"
+              src={abuelas_de_luz_subtitles}
+              default
+            />
+            Sorry, your browser doesn't support embedded videos.
+          </video>
+        </section>
+        {/* How to transform the "I" to "We"_Miriam Reyes_TEDxBurgos */}
+        <section>
+          <video
+            controls
+            preload="metadata"
+            height="auto"
+            width="auto"
+          >
+            <source src={how_to_transform_the_i_vid} type="video/mp4"/>
+            <track
+              label="English"
+              kind="subtitles"
+              srclang="en"
+              src={how_to_transform_the_i_subtitles}
+              default
+            />
+            Sorry, your browser doesn't support embedded videos.
+          </video>
+        </section>
+      </section>
+
+      {/* Article Translations */}
     </article>
   )
 }
@@ -28,47 +79,6 @@ export default function AboutUs() {
     section#about-me-container.container
 
     section#video-container.container-fluid
-        h2.text-center Video Translations
-        //- Abuelas de luz - Anastasia García - TEDxBogotaMujeres
-        section#videos.d-flex
-            video.video(
-                controls
-                preload="metadata"
-                height="auto"
-                width="49%"
-            )
-                source(
-                    src="https://cdn.glitch.com/5748f95c-6cac-4384-8a9f-d789b438cfcb%2FAbuelas%20de%20luz%20_%20Anastasia%20Garc%C3%ADa%20_%20TEDxBogotaMujeres-gKBj2o-PJ_0.mp4?1555615237571"
-                    type="video/mp4"
-                )
-                track(
-                    label="English"
-                    kind="subtitles"
-                    srclang="en"
-                    src="/video/captions/Abuelas_de_luz.en.vtt"
-                    default
-                )
-                | Sorry, your browser doesn't support embedded videos.
-
-            //-- How to transform the "I" to "We"_Miriam Reyes_TEDxBurgos
-            video.video(
-                controls
-                preload="metadata"
-                height="auto"
-                width="49%"
-            )
-                source(
-                    src="https://cdn.glitch.com/5748f95c-6cac-4384-8a9f-d789b438cfcb%2FComo%20transformar%20el%20yo%20en%20nosotros%20-%20Miriam%20Reyes%20at%20TEDxBurgos-l81dmxj7up0.mp4?1555615364832"
-                    type="video/mp4"
-                )
-                track(
-                    label="English"
-                    kind="subtitles"
-                    srclang="en"
-                    src="/video/captions/Como_transformar_y_el_nosotros.en.vtt"
-                    default
-                )
-                | Sorry, your browser doesn't support embedded videos.
 
     section#article-container.container-fliud
         h2.text-center Article Translations
