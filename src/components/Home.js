@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import background_img from '../book-stack-2794002_1920.jpg'
+import background_img from '../img/book-stack-2794002_1920.jpg'
 
 
 export default function Home() {
