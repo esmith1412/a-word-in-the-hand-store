@@ -8,7 +8,13 @@ import abuelas_de_luz_subtitles from '../vid/captions/Abuelas de luz _ Anastasia
 import how_to_transform_the_i_vid from '../vid/Como transformar el yo en nosotros - Miriam Reyes at TEDxBurgos-l81dmxj7up0.mp4'
 import how_to_transform_the_i_subtitles from '../vid/captions/Como transformar el yo en nosotros - Miriam Reyes at TEDxBurgos-l81dmxj7up0.en.vtt'
 
+// Translation Sample Articles
+import boatics_logo from '../img/Logo-Iwith.png'
+import permact_logo from '../img/permact_banner.jpg'
 
+// Connect with Me
+import linked_in_logo from '../img/Logo-2C-66px-TM.png'
+const proz_logo_cdn = 'https://cfcdn.proz.com/images/affiliates/proz_translation_workplace.gif'
 
 
 export default function AboutUs() {
@@ -33,6 +39,7 @@ export default function AboutUs() {
         {/* Abuelas de luz - Anastasia García - TEDxBogotaMujeres */}
         <section>
           <video
+            className="video"
             controls
             preload="metadata"
             height="auto"
@@ -52,6 +59,7 @@ export default function AboutUs() {
         {/* How to transform the "I" to "We"_Miriam Reyes_TEDxBurgos */}
         <section>
           <video
+            className="video"
             controls
             preload="metadata"
             height="auto"
@@ -71,48 +79,32 @@ export default function AboutUs() {
       </section>
 
       {/* Article Translations */}
+      <section className="d-flex flex-column justify-content-around align-items-center">
+        <h2>Article Translations</h2>
+        <a href="http://www.bocatics.org/news/en/2017/01/17/0003/when-should-you-use-jpeg-gif-or-png-in-your-images">
+          <img src={boatics_logo} alt='boatics logo'/>
+        </a>
+        <a href="http://permact.org/en/educacion-y-cultura/">
+          <img src={permact_logo} alt='permact logo'/>
+        </a>
+      </section>
+
+      {/* Connect with Me */}
+      <section className="d-flex flex-column align-items-center">
+        <h2>Connect with Me</h2>
+        <section className="d-flex flex-row justify-content-between">
+          <a href="https://www.linkedin.com/in/kerlenet/">
+            <img src={linked_in_logo} alt='LinkedIn logo'/>
+          </a>
+          <a href="https://www.proz.com/translator/2265103">
+            <img
+              border="0"
+              src={proz_logo_cdn}
+              alt="Translators and translation resources"
+            />
+          </a>
+        </section>
+      </section>
     </article>
   )
 }
-
-/*article#about-container
-    section#about-me-container.container
-
-    section#video-container.container-fluid
-
-    section#article-container.container-fliud
-        h2.text-center Article Translations
-        section#article-images.justify-content-around.align-items-center
-            //- Bocatics article translation
-            a(href="http://www.bocatics.org/news/en/2017/01/17/0003/when-should-you-use-jpeg-gif-or-png-in-your-images")
-                img.img-fluid.img-thumbnail(
-                    src="https://cdn.glitch.com/5748f95c-6cac-4384-8a9f-d789b438cfcb%2FLogo-Iwith.png?1555615160352",
-                    alt='permact thumbnail'
-                )
-
-            //- Permact Article
-            a(href="http://permact.org/en/educacion-y-cultura/")
-                img.img-fluid.img-thumbnail(
-                    src="https://cdn.glitch.com/5748f95c-6cac-4384-8a9f-d789b438cfcb%2Fpermact_banner.jpg?1555615163860",
-                    alt='boatics thumbnail'
-                )
-
-    hr
-    section#connect-container.container-fluid
-        h2.text-center Connect with Me
-        section#connect-links
-            //-- LinkedIn Profile link
-            a(href="https://www.linkedin.com/in/kerlenet/")
-                img(
-                    src="https://cdn.glitch.com/5748f95c-6cac-4384-8a9f-d789b438cfcb%2FLogo-2C-66px-TM.png?1555616114536",
-                    alt='LinkedIn'
-                )
-            //-- Proz.com Profile Link
-            a(href="https://www.proz.com/translator/2265103")
-                img(
-                    border="0",
-                    src="https://sslcdn.proz.com/images/affiliates/proz_translation_workplace.gif",
-                    alt="Proz Translators and translation resources"
-                )
-
-*/
