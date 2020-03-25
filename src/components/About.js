@@ -9,11 +9,9 @@ export default function AboutUs() {
       <section className="d-flex flex-column justify-content-center align-items-center">
         <h1 className="text-center">About Me</h1>
         <img
-          className="border shadow rounded-circle"
-          width="250px"
-          height="250px"
+          className="img-fluid border shadow rounded-circle"
           src={profile_pic}
-          alt="profile picture"
+          alt="profile"
         />
         <p>
         My name is Kerlene Telesford; I'm the founder of A Word in the Hand, and have a passion for producing the best Spanish-to-English translations available, at an industry-competitive rate. I have a BA in Spanish for Translation from Andrews University (in Berrien Springs, Michigan), and since graduating in 2013, I've been actively gaining experience and competency in the art and science of translation. Feel free to peruse my work samples below, and get in touch with me on my various social media pages.
