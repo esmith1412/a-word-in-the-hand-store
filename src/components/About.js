@@ -25,12 +25,17 @@ export default function AboutUs() {
       {/* Connect with Me */}
       <section className="d-flex flex-column align-items-center">
         <h2>Connect with Me</h2>
-        <section className="d-flex flex-row justify-content-around">
+        <section className="d-sm-flex justify-content-between">
           <a href="https://www.linkedin.com/in/kerlenet/">
-            <img src={linked_in_logo} alt='LinkedIn logo'/>
+            <img
+              className="img-fluid"
+              src={linked_in_logo}
+              alt='LinkedIn logo'
+            />
           </a>
           <a href="https://www.proz.com/translator/2265103">
             <img
+              className="img-fluid"
               border="0"
               src={proz_logo_cdn}
               alt="Translators and translation resources"
