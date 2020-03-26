@@ -1,4 +1,5 @@
 import React from 'react'
+import Redirect from "react-router-dom";
 
 
 export default function Quote(props) {
@@ -15,7 +16,7 @@ export default function Quote(props) {
         </li>
       </ol>
       <form
-        action="/"
+        onSubmit={() => <Redirect to="/"/>}
         name="upload"
         method="POST"
         enctype="multipart/form-data"
