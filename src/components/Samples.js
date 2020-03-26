@@ -65,13 +65,13 @@ export default function WorkSamples() {
         <h2>Article Translations</h2>
         <a
           className="hover-car"
-          href="http://www.bocatics.org/news/en/2017/01/17/0003/when-should-you-use-jpeg-gif-or-png-in-your-images"
+          href="https://web.archive.org/web/20190405235827/http://www.bocatics.org/news/en/2017/01/17/0003/when-should-you-use-jpeg-gif-or-png-in-your-images"
         >
           <img src={boatics_logo} alt='boatics logo'/>
         </a>
         <a
           className="hover-car"
-          href="http://permact.org/en/educacion-y-cultura/"
+          href="https://web.archive.org/web/20170819111331/http://permact.org/en/educacion-y-cultura/"
         >
           <img src={permact_logo} alt='permact logo'/>
         </a>
