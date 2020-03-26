@@ -15,14 +15,7 @@ export default function Quote(props) {
           Lastly, you'll receive a copy of the translated file in your email.
         </li>
       </ol>
-      <form
-        onSubmit={() => <Redirect to="/"/>}
-        name="upload"
-        method="POST"
-        enctype="multipart/form-data"
-        data-netlify="true"
-      >
-
+      <form name="upload" method="POST" enctype="multipart/form-data">
         {/* To allow Netlify to get the form data*/}
         <input type="hidden" name="form-name" value="upload" />
 
