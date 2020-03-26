@@ -1,12 +1,15 @@
 import React from 'react'
 
-export default function Quote(props) {
+
+export default function Quote() {
   return(
     <article className="container">
       <h1>Translation Quote Form</h1>
       <h2>Instructions</h2>
       <ol>
-        <li>Enter your email address, and upload the file you wish to translate for a quote, which you'll receive within the hour, along with the estimated time for completion.</li>
+        <li>Enter your email address.</li>
+        <li>Upload the file you wish to translate.</li>
+        <li>You'll receive q quote within the hour, along with the estimated time for completion.</li>
         <li>If the provided terms are agreeable, then you will promptly receive a PayPal invoice.</li>
         <li>After the invoice is paid, work will begin on your translation.</li>
         <li>
