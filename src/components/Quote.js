@@ -15,13 +15,16 @@ export default function Quote(props) {
         </li>
       </ol>
       <form
-        onSubmit={() => this.props.history.push('/')}
+        action="/"
         name="upload"
         method="POST"
         enctype="multipart/form-data"
         data-netlify="true"
       >
+
+        {/* To allow Netlify to get the form data*/}
         <input type="hidden" name="form-name" value="upload" />
+
         <section class="form-group">
           <label for="email-address">Email Address</label>
           <input
