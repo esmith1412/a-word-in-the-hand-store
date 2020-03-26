@@ -21,6 +21,7 @@ export default function Quote(props) {
         enctype="multipart/form-data"
         data-netlify="true"
       >
+        <input type="hidden" name="form-name" value="upload" />
         <section class="form-group">
           <label for="email-address">Email Address</label>
           <input
