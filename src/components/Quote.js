@@ -6,10 +6,10 @@ export default function Quote() {
     <article className="container">
       <section className="row">
         {/* Empty Column */}
-        <section className="col"/>
+        <section className="col-3"/>
 
-        <section className="col">
-          <h3>Get your fast, free quote:</h3>
+        <section className="col-6">
+          <h2>How to get your fast, free quote:</h2>
           <ol>
             <li>Enter your email address.</li>
             <li>Upload the file you wish to translate.</li>
@@ -47,7 +47,7 @@ export default function Quote() {
         </section>
 
         {/* Empty Column */}
-        <section className="col"/>
+        <section className="col-3"/>
       </section>
     </article>
   )
