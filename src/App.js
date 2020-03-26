@@ -14,7 +14,7 @@ import Home from './components/Home'
 import AboutUs from './components/About'
 import PrivacyPolicy from './components/Policy'
 import TermsAndConditions from './components/Terms'
-import WorkSamples from './components/WorkSamples'
+import WorkSamples from './components/Samples'
 import Default from './components/Default'
 import Footer from './components/Footer'
 
