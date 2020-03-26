@@ -63,10 +63,16 @@ export default function WorkSamples() {
       {/* Article Translations */}
       <section className="d-flex flex-column justify-content-around align-items-center">
         <h2>Article Translations</h2>
-        <a href="http://www.bocatics.org/news/en/2017/01/17/0003/when-should-you-use-jpeg-gif-or-png-in-your-images">
+        <a
+          className="hover-car"
+          href="http://www.bocatics.org/news/en/2017/01/17/0003/when-should-you-use-jpeg-gif-or-png-in-your-images"
+        >
           <img src={boatics_logo} alt='boatics logo'/>
         </a>
-        <a href="http://permact.org/en/educacion-y-cultura/">
+        <a
+          className="hover-car"
+          href="http://permact.org/en/educacion-y-cultura/"
+        >
           <img src={permact_logo} alt='permact logo'/>
         </a>
       </section>
