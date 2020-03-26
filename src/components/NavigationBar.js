@@ -15,6 +15,7 @@ export default function NavigationBar() {
         <Link to="/samples" class="nav-item nav-link text-warning">
           Work Samples
         </Link>
+        <Link to="/quote" class="nav-item nav-link text-warning">Quote</Link>
       </section>
     </nav>
   )
