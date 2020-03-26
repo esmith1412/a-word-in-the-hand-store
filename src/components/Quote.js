@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-export default function Quote() {
+export default function Quote(props) {
   return(
     <article className="container">
       <h1>Translation Quote Form</h1>
@@ -14,19 +14,25 @@ export default function Quote() {
           Lastly, you'll receive a copy of the translated file in your email.
         </li>
       </ol>
-      <form method="POST" data-netlify="true">
+      <form
+        onSubmit={() => this.props.history.push('/')}
+        name="upload"
+        method="POST"
+        enctype="multipart/form-data"
+        data-netlify="true"
+      >
         <section class="form-group">
           <label for="email-address">Email Address</label>
           <input
             type="email"
             class="form-control"
-            id="email-address"
+            name="email-address"
             aria-describedby="email-help"
           />
         </section>
         <section class="form-group">
           <label for="file-upload">File to be Translated</label>
-          <input type="file" class="form-control-file" id="file-upload"/>
+          <input type="file" class="form-control-file" name="file-upload"/>
         </section>
         <button type="submit" class="btn btn-danger text-warning">
           Get Quote
