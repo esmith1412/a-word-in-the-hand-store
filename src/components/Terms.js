@@ -5,7 +5,7 @@ export default function TermsAndConditions() {
   return (
     <article className="container">
         <h1 className="text-center">Terms and Conditions</h1>
-        <p>These terms and conditions apply to each request for translation services from A Word in the Hand, to the provision of translation services, and to the provision of a quote for translation services, by any client of A Word in the Hand.</p>
+        <p>These terms and conditions apply to each request for translation services from A Word in the Hand, to the provision of translation services, and to the provision of a Quote for translation services, by the Client of A Word in the Hand.</p>
 
 
         <br/>
@@ -15,7 +15,14 @@ export default function TermsAndConditions() {
 
         <p><strong>1.2</strong>&emsp;“Client” means the client that requests translation services from A Word in the Hand (or on whose behalf translation services are requested), as subsequently named in the Quote;</p>
 
-        <p><strong>1.3</strong>&emsp;“Confidential Information” means any proprietary information, know-how, and data disclosed in confidence by one party to the other party (and including in the case of the Client the Source Materials and the Deliverables), but does not include any information which (a) is in the public domain; (b) on receipt by the other party is already known by that party; (c) is at any time after the date of receipt by the other party, received in good faith by that party from a third party; (d) required by law to be disclosed by the other party;</p>
+        <p><strong>1.3</strong>&emsp;“Confidential Information” means any proprietary information, know-how, and data disclosed in confidence by one party to the other party (and including in the case of the Client the Source Materials and the Deliverables), but does not include any information which:</p>
+        <ol type="a">
+          <li>is in the public domain;</li>
+          <li>is on receipt by the other party is already known by that party;
+          </li>
+          <li>is at any time after the date of receipt by the other party; received in good faith by that party, from a third party;</li>
+          <li>is required by law to be disclosed by the other party;</li>
+        </ol>
 
         <p><strong>1.4</strong>&emsp;“Contract” means a written confirmation, comprising an Accepted Quote, as well as these Terms and Conditions;
         </p>
@@ -74,7 +81,7 @@ export default function TermsAndConditions() {
         <h2><strong>4.</strong>&emsp;Charges and payment</h2>
         <p><strong>4.1</strong>&emsp;The Client will pay all applicable fees as specified in the Quote, which will be due for payment or invoiced in accordance with clause 4.2 or clause 4.3 (as applicable) unless alternative timing for payment being due or invoices being issued is specified in the Accepted Quote.</p>
 
-        <p><strong>4.1</strong>&emsp;In this clause, 4.2, ‘100’ is determined in the currency specified in the Quote (which will be either GBP, USD, NZD, AUD, CAD, SGD or EURO). Except where clause 4.3 applies, if the total amount payable is:</p>
+        <p><strong>4.1</strong>&emsp;In this clause, 4.2, ‘100’ is determined in the currency specified in the Quote (which will be in USD). Except where clause 4.3 applies, if the total amount payable is:</p>
         <ol type="a">
           <li>&emsp;100 or less, the total amount is due prior to commencement of the Services;</li>
           <li>&emsp;greater than 100:
@@ -172,7 +179,7 @@ export default function TermsAndConditions() {
         <br/>
         <h2><strong>10.</strong>&emsp;Termination</h2>
 
-        <p><strong>10.2</strong>&emsp;The Client may, without cause, terminate a Contract (or, subject to this clause 10.1, part of a Contract) at any time up until 30 minutes after first payment in respect of that Contract has been received by A Word in the Hand, by giving written notification to A Word in the Hand within that 30 minute time period. The Client may only terminate part of a Contract where separate pricing is specified in the Accepted Quote for the Services no longer required. Where a Contract is partially terminated under this clause, the Client must, at the time of giving notice of termination, specify the Services that are no longer required.</p>
+        <p><strong>10.1</strong>&emsp;The Client may, without cause, terminate a Contract (or, subject to this clause 10.1, part of a Contract) at any time up until 30 minutes after first payment in respect of that Contract has been received by A Word in the Hand, by giving written notification to A Word in the Hand within that 30 minute time period. The Client may only terminate part of a Contract where separate pricing is specified in the Accepted Quote for the Services no longer required. Where a Contract is partially terminated under this clause, the Client must, at the time of giving notice of termination, specify the Services that are no longer required.</p>
 
         <p><strong>10.2</strong>&emsp;Without limiting any other rights or remedies that A Word in the Hand may have, A Word in the Hand may terminate the Contract on written notice to the Client if the Client fails to pay any overdue amount within five days following written notice from A Word in the Hand requiring payment.</p>
 
@@ -192,7 +199,7 @@ export default function TermsAndConditions() {
         <br/>
         <h2><strong>11.</strong>&emsp;Liability</h2>
 
-        <p><strong>11.1</strong>&emsp;Subject to clause 11.2, A Word in the Hand will be liable for direct loss only (excluding loss of business or profits and excluding all consequential loss) up to a maximum of NZ$100.
+        <p><strong>11.1</strong>&emsp;Subject to clause 11.2, A Word in the Hand will be liable for direct loss only (excluding loss of business or profits and excluding all consequential loss) up to a maximum of USD $100.
         </p>
 
         <p><strong>11.2</strong>&emsp;For ‘Professional Plus’ Services, A Word in the Hand will be liable for direct loss only (excluding loss of business or profits and excluding all consequential loss) up to a maximum of the amount paid by the Client to A Word in the Hand for the Services.</p>
@@ -207,7 +214,7 @@ export default function TermsAndConditions() {
 
         <p><strong>12.3</strong>&emsp;If the parties are unable to resolve the dispute by discussion and negotiation within 14 days of receipt of the written notice from the first party, then the parties must immediately refer the dispute to mediation.</p>
 
-        <p><strong>12.4</strong>&emsp;The mediation must be conducted in terms of the LEADR Ohio Inc Standard Mediation Agreement. The mediation must be conducted by a mediator at a fee agreed by the parties. Failing agreement between the parties, the mediator will be selected and his/her fee determined by the Chair for the time being of LEADR Ohio Inc.
+        <p><strong>12.4</strong>&emsp;The mediation must be conducted in terms of the LEADR Ohio Inc Standard Mediation Agreement. The mediation must be conducted by a mediator, at a fee agreed to by the parties. Failing agreement between the parties, the mediator will be selected, and his/her fee determined by the Chair for the time being of LEADR Ohio Inc.
         </p>
 
 
