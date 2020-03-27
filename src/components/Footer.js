@@ -13,7 +13,7 @@ export default function Footer() {
           &copy;{this_year} - A Word in the Hand
         </section>
         <section>
-          <a href="mailto:admin@awordinthehand.net" className="text-danger">
+          <a href="mailto:contact@awordinthehand.net" className="text-danger">
             Contact Us
           </a>
         </section>
