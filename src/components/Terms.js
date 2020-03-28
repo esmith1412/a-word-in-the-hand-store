@@ -81,7 +81,7 @@ export default function TermsAndConditions() {
         <h2><strong>4.</strong>&emsp;Charges and payment</h2>
         <p><strong>4.1</strong>&emsp;The Client will pay all applicable fees as specified in the Quote, which will be due for payment or invoiced in accordance with clause 4.2 or clause 4.3 (as applicable) unless alternative timing for payment being due or invoices being issued is specified in the Accepted Quote.</p>
 
-        <p><strong>4.1</strong>&emsp;In this clause, 4.2, ‘100’ is determined in the currency specified in the Quote (which will be in USD). Except where clause 4.3 applies, if the total amount payable is:</p>
+        <p><strong>4.2</strong>&emsp;In this clause, 4.2, ‘100’ is determined in the currency specified in the Quote (which will be in USD). Except where clause 4.3 applies, if the total amount payable is:</p>
         <ol type="a">
           <li>&emsp;100 or less, the total amount is due prior to commencement of the Services;</li>
           <li>&emsp;greater than 100:
@@ -99,11 +99,11 @@ export default function TermsAndConditions() {
           </li>
         </ol>
 
-        <p><strong>4.4</strong>&emsp;All payments must be made in full, without deduction or set-off.</p>
+        <p><strong>4.3</strong>&emsp;All payments must be made in full, without deduction or set-off.</p>
 
-        <p><strong>4.5</strong>&emsp;Any applicable value-added tax, and any other applicable taxes and duties are added to the amount charged.</p>
+        <p><strong>4.4</strong>&emsp;Any applicable value-added tax, and any other applicable taxes and duties are added to the amount charged.</p>
 
-        <p><strong>4.6</strong>&emsp;If any amount is not paid by the due date:</p>
+        <p><strong>4.5</strong>&emsp;If any amount is not paid by the due date:</p>
         <ol type="a">
           <li>A Word in the Hand may charge interest on that amount, at 10% per annum, calculated from the due date up until the date that payment is received by A Word in the Hand;</li>
           <li>A Word in the Hand may suspend provision of Services or may cease to provide the Services or Deliverables, and may at its discretion terminate the Contract in accordance with clause 10.2.</li>
@@ -199,10 +199,8 @@ export default function TermsAndConditions() {
         <br/>
         <h2><strong>11.</strong>&emsp;Liability</h2>
 
-        <p><strong>11.1</strong>&emsp;Subject to clause 11.2, A Word in the Hand will be liable for direct loss only (excluding loss of business or profits and excluding all consequential loss) up to a maximum of USD $100.
+        <p><strong>11.1</strong>&emsp;A Word in the Hand will be liable for direct loss only (excluding loss of business or profits and excluding all consequential loss) up to a maximum of USD $100.
         </p>
-
-        <p><strong>11.2</strong>&emsp;For ‘Professional Plus’ Services, A Word in the Hand will be liable for direct loss only (excluding loss of business or profits and excluding all consequential loss) up to a maximum of the amount paid by the Client to A Word in the Hand for the Services.</p>
 
 
         <br/>
@@ -212,52 +210,46 @@ export default function TermsAndConditions() {
 
         <p><strong>12.2</strong>&emsp;The party initiating the dispute (“the first party”) must provide written notice of the dispute to the other party (“the other party”) and nominate in that notice the first party’s representative for the negotiations. The other party must within seven days of receipt of the notice, give written notice to the first party naming its representative for the negotiations. Each representative nominated will have authority to settle or resolve the dispute.</p>
 
-        <p><strong>12.3</strong>&emsp;If the parties are unable to resolve the dispute by discussion and negotiation within 14 days of receipt of the written notice from the first party, then the parties must immediately refer the dispute to mediation.</p>
+        <p><strong>12.3</strong>&emsp;If the parties are unable to resolve the dispute by discussion and negotiation within 13 days of receipt of the written notice from the first party, then the parties must immediately refer the dispute to mediation.</p>
 
-        <p><strong>12.4</strong>&emsp;The mediation must be conducted in terms of the LEADR Ohio Inc Standard Mediation Agreement. The mediation must be conducted by a mediator, at a fee agreed to by the parties. Failing agreement between the parties, the mediator will be selected, and his/her fee determined by the Chair for the time being of LEADR Ohio Inc.
+        <p><strong>12.4</strong>&emsp;The mediation must be conducted in terms of the Ohio Mediation Association. The mediation must be conducted by a mediator, at a fee agreed to by the parties. Failing agreement between the parties, the mediator will be selected, and his/her fee determined by the Chair for the time being of the Ohio Mediation Association.
         </p>
 
 
         <br/>
-        <h2><strong>13.</strong>&emsp;Consumer Guarantees Act</h2>
+        <h2><strong>13.</strong>&emsp;General</h2>
 
-        <p><strong>13.1</strong>&emsp;If the Client acquires, or holds itself out as acquiring, goods or services from A Word in the Hand under a Contract for the purposes of a business, and the Consumer Guarantees Act 1993 would apply were it not for this clause 13.1, the Consumer Guarantees Act 1993 will not apply.</p>
+        <p><strong>13.1</strong>&emsp;Entire agreement: Each Contract constitutes the complete and exclusive statement of the agreement between the parties, superseding all proposals or prior agreements, oral or written, and all other communications between the parties relating to the subject matter of that Contract.</p>
 
+        <p><strong>13.2</strong>&emsp;Amendments: Except as specifically provided, no amendment to a Contract will be effective unless it is in writing and signed by both parties.</p>
 
-        <br/>
-        <h2><strong>14.</strong>&emsp;General</h2>
+        <p><strong>13.3</strong>&emsp;Waiver: No exercise or failure to exercise or delay in exercising any right or remedy by a party will constitute a waiver by that party of that or any other right or remedy available to it.</p>
 
-        <p><strong>14.1</strong>&emsp;Entire agreement: Each Contract constitutes the complete and exclusive statement of the agreement between the parties, superseding all proposals or prior agreements, oral or written, and all other communications between the parties relating to the subject matter of that Contract.</p>
+        <p><strong>13.4</strong>&emsp;Partial invalidity: If any provision of a Contract or its application to any party or circumstance is or becomes invalid or unenforceable to any extent, the remainder of the Contract and its application will not be affected and will remain enforceable to the greatest extent permitted by law.</p>
 
-        <p><strong>14.2</strong>&emsp;Amendments: Except as specifically provided, no amendment to a Contract will be effective unless it is in writing and signed by both parties.</p>
+        <p><strong>13.5</strong>&emsp;Independent contractor: A Word in the Hand is an independent contractor to the Client and is in all respects independent of the Client. Nothing in any Contract constitutes either party a partner, agent, employee or joint venturer of the other.</p>
 
-        <p><strong>14.3</strong>&emsp;Waiver: No exercise or failure to exercise or delay in exercising any right or remedy by a party will constitute a waiver by that party of that or any other right or remedy available to it.</p>
+        <p><strong>13.6</strong>&emsp;Suspension: A Word in the Hand may suspend performance of its obligations under a Contract for so long as it is unable to perform for reasons outside of its control.</p>
 
-        <p><strong>14.4</strong>&emsp;Partial invalidity: If any provision of a Contract or its application to any party or circumstance is or becomes invalid or unenforceable to any extent, the remainder of the Contract and its application will not be affected and will remain enforceable to the greatest extent permitted by law.</p>
+        <p><strong>13.7</strong>&emsp;Assignment: The Client must not assign its rights under any Contract without the prior written consent of A Word in the Hand.</p>
 
-        <p><strong>14.5</strong>&emsp;Independent contractor: A Word in the Hand is an independent contractor to the Client and is in all respects independent of the Client. Nothing in any Contract constitutes either party a partner, agent, employee or joint venturer of the other.</p>
+        <p><strong>13.8</strong>&emsp;Severability: If any provision of a Contract is held invalid, unenforceable or illegal for any reason, the Contract shall remain otherwise in full force apart from such provisions which shall be deemed deleted.</p>
 
-        <p><strong>14.6</strong>&emsp;Suspension: A Word in the Hand may suspend performance of its obligations under a Contract for so long as it is unable to perform for reasons outside of its control.</p>
-
-        <p><strong>14.7</strong>&emsp;Assignment: The Client must not assign its rights under any Contract without the prior written consent of A Word in the Hand.</p>
-
-        <p><strong>14.8</strong>&emsp;Severability: If any provision of a Contract is held invalid, unenforceable or illegal for any reason, the Contract shall remain otherwise in full force apart from such provisions which shall be deemed deleted.</p>
-
-        <p><strong>14.9</strong>&emsp;Precedence: In the event of any conflict or inconsistency as between the Accepted Quote and these terms and conditions, unless specified otherwise in these terms and conditions, these terms and conditions will take precedence.</p>
+        <p><strong>13.9</strong>&emsp;Precedence: In the event of any conflict or inconsistency as between the Accepted Quote and these terms and conditions, unless specified otherwise in these terms and conditions, these terms and conditions will take precedence.</p>
 
 
         <br/>
-        <h2><strong>15.</strong>&emsp;Notices</h2>
+        <h2><strong>14.</strong>&emsp;Notices</h2>
 
-        <p><strong>15.1</strong>&emsp;Notices under each Contract must be in writing and sent by post or facsimile to the address or facsimile number specified in the Quote (unless otherwise notified on seven days written notice).</p>
+        <p><strong>14.1</strong>&emsp;Notices under each Contract must be in writing and sent by post or facsimile to the address or facsimile number specified in the Quote (unless otherwise notified on seven days written notice).</p>
 
-        <p><strong>15.2</strong>&emsp;Notices sent by post shall be deemed received 10 days after posting to or from an overseas destination and three days after posting within Ohio and notices sent by facsimile shall be deemed received on transmission so long as the sender has a transmission report specifying the correct number of pages sent, the date and time of transmission and that transmission was successful.</p>
+        <p><strong>14.2</strong>&emsp;Notices sent by post shall be deemed received 10 days after posting to or from an overseas destination and three days after posting within Ohio and notices sent by facsimile shall be deemed received on transmission so long as the sender has a transmission report specifying the correct number of pages sent, the date and time of transmission and that transmission was successful.</p>
 
 
         <br/>
-        <h2><strong>16.</strong>&emsp;Governing law</h2>
+        <h2><strong>15.</strong>&emsp;Governing law</h2>
 
-        <p><strong>16.1</strong>&emsp;Each Contract is governed by and construed in accordance with Ohio law and the parties submit to the non-exclusive jurisdiction of the Ohio courts.</p>
+        <p><strong>15.1</strong>&emsp;Each Contract is governed by and construed in accordance with Ohio law and the parties submit to the non-exclusive jurisdiction of the Ohio courts.</p>
     </article>
   )
 }
